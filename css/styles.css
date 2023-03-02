@@ -297,6 +297,11 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+    .hero-section {
+        padding-top: 73px;
+        padding-bottom: 73px;
+    }
+
     .hero-container {
         flex-direction: row-reverse;
         gap: 19px;
@@ -332,6 +337,11 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+    .hero-section {
+        padding-top: 153px;
+        padding-bottom: 153px;
+    }
+
     .hero-image-icon {
         width: 639px;
         height: 429px;
@@ -447,6 +457,11 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+    .about-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
     .about-container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -503,5 +518,118 @@ body {
     .about-list-icon-wrapper {
         width: 70px;
         height: 70px;
+    }
+}
+
+
+/* ============================== OUR EXPERIENCE SECTION ============================== */
+
+.our-section {
+    background-color: var(--color-orange-background);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.our-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.our-left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.our-section-title {
+    width: 255px;
+}
+
+.our-rigth-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.our-list-item {
+    /* width: 343px;
+    height: 250px; */
+    background-color: var(--color-white);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+
+.our-list-item-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: var(--color-black);
+}
+
+.our-list-item-info {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    color: var(--color-gray-paragraph);
+}
+
+@media screen and (min-width: 768px) {
+    .our-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .our-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .our-section-title {
+        width: 100%;
+    }
+
+    .our-left-part {
+        width: 332px;
+        /* flex-grow: 1; */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .our-right-part {
+        flex-grow: 1;
+    }
+
+    .our-rigth-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* gap: 8px; */
+    }
+
+    .our-list-item {
+        width: 162px;
+        /* height: 250px; */
+        gap: 10px;
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+
+    .our-list-item-title {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .our-list-item-info {
+        font-weight: 400;
+        font-size: 16px;
     }
 }
